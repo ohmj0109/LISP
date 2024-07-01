@@ -1,9 +1,9 @@
 ;;================================================
 ;  SELECT FREEZE(9812cho_i)
 ;;------------------------------------------------
-(defun c:QQ(/ ss n k en cly oly)
+(defun c:2(/ ss n k en cly oly)
    (prompt "\nCommand: select Preeze...")
-   (prompt "\nÄÓ ·¹ÀÌ¾î¸¸À» ¼±ÅÃ-> ")
+   (prompt "\nÃ„Ã“ Â·Â¹Ã€ÃŒÂ¾Ã®Â¸Â¸Ã€Â» Â¼Â±Ã…Ãƒ-> ")
    (setq ss (ssget))
    (setq n (sslength ss))
    (setq k 0)
